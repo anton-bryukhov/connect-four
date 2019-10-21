@@ -83,7 +83,7 @@ function isWinConditionReached(board, row, col) {
       j -= colDir;
     }
 
-    if (streak === 4) {
+    if (streak === WIN_STREAK) {
       return true;
     }
   }
